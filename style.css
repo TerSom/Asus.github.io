@@ -19,7 +19,7 @@ img{
     width: 7%;
     margin-left: 80px;
     display: flex;
-    justify-content: space-between;
+    gap: 15px;
 }
 
 .header a{
@@ -29,7 +29,7 @@ img{
     color: black;
 }
 
-.header :after{
+.header a:after{
     content: "";
     position: absolute;
     background-color: black;
@@ -39,7 +39,7 @@ img{
     bottom: -20px;
 }
 
-.header :hover:after{
+.header a:hover:after{
     width: 100%;
 }
 
@@ -141,7 +141,7 @@ h4:hover:after{
 
 .img1{
     width: 230px;
-    padding-left: 1300px;
+    padding-left: 1045px;
     padding-top: 20px;
     margin-right: 370px;
 }
@@ -156,7 +156,7 @@ h4:hover:after{
     width: 300px;
     height: 2000px;
     margin-top: 80px;
-    margin-left: 300px;
+    margin-left: 50px;
     background-color: white;
 }
 
@@ -1202,7 +1202,7 @@ footer{
     justify-content: space-between;
 }
 
-.footer ul li{
+.footer li{
     list-style-type: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(24, 24, 24);
@@ -1211,22 +1211,26 @@ footer{
     margin-top: 10px;
 }
 
-.footer ul li a{
+.footer a{
     text-decoration: none;
     color: #4d4d4d;
     font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.footer ul li a:hover{
+.footer li a:hover{
     text-decoration: underline;
 }
 
-.list2, .list3{
+.footer2{
     padding-top: 29px;
 }
 
-.copyright{
+.footer3{
+    padding-top: 29px;
+}
+
+.footer-copyright{
     width: 100%;
     height: 84px;
     font-size: 13px;
@@ -1234,7 +1238,7 @@ footer{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.copyright-wrap{
+.list1{
     width: 100%;
     max-width: 1236px;
     height: 84px;
@@ -1242,7 +1246,7 @@ footer{
     display: flex;
 }
 
-.left{
+.list2{
     width: 100%;
     max-width: 588px;
     height: 50px;
@@ -1251,12 +1255,12 @@ footer{
     align-items: center;
 }
 
-.copyright-wrap a{
+.list1 a{
     display: inline-block;
     color: #4d4d4d;
     text-decoration: none;
 }
 
-.copyright-wrap a:hover{
+.list1 a:hover{
     text-decoration: underline;
 }
